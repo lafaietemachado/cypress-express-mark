@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Projeto de testes de ponta a ponta no Mark L",
   "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:test": "npx cypress run",
+    "test": "npx cypress run"
+  },
   "author": "Lafaiete Machado",
   "license": "MIT",
   "devDependencies": {
